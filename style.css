@@ -1,3 +1,179 @@
-Kevins-Basketball-Shop
-├── index.html
-└── style.css
+/* GENERAL PAGE */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* MAIN PAGE LAYOUT */
+
+.page-layout {
+    display: grid;
+
+    /* NAV - SECTION - ASIDE */
+    grid-template-columns: 180px 1fr 200px;
+
+    min-height: 600px;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    background-color: #f57c00;
+    padding: 20px;
+}
+
+nav h2 {
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #111111;
+}
+
+
+/* SECTION */
+
+section {
+    background-color: white;
+    padding: 20px;
+}
+
+
+/* WELCOME */
+
+.welcome {
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+
+/* ARTICLE */
+
+article {
+    background-color: #fff8e1;
+    border: 2px solid #cccccc;
+    padding: 20px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+
+/* PRODUCTS */
+
+.products {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+/* PRODUCT */
+
+.product {
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+
+/* PRODUCT IMAGES */
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+/* PRODUCT HEADINGS */
+
+.product h3 {
+    font-size: 20px;
+}
+
+
+/* PRICE */
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f57c00;
+}
+
+
+/* BUTTON */
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* ASIDE */
+
+aside {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-left: 2px solid #cccccc;
+}
+
+aside h2 {
+    color: #f57c00;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
