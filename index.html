@@ -1,179 +1,182 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Kevin's Basketball Shop</title>
+```
+<title>Kevin's Basketball Shop</title>
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="style.css">
+<!-- External CSS -->
+<link rel="stylesheet" href="style.css">
 
-    <!-- Internal CSS -->
-    <style>
-        .welcome {
-            text-align: center;
-            padding: 20px;
-        }
+<!-- Internal CSS -->
+<style>
+    .welcome {
+        text-align: center;
+        padding: 20px;
+    }
 
-        .welcome h2 {
-            font-size: 30px;
-        }
-    </style>
+    .welcome h2 {
+        font-size: 30px;
+    }
+</style>
+```
+
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <header>
-        <h1>Kevin's Basketball Shop</h1>
-        <p>Everything You Need for Your Game!</p>
-    </header>
+```
+<!-- HEADER -->
+<header>
+    <h1>Kevin's Basketball Shop</h1>
+    <p>Everything You Need for Your Game!</p>
+</header>
 
+<!-- MAIN PAGE LAYOUT -->
+<div class="page-layout">
 
-    <!-- MAIN PAGE LAYOUT -->
-    <div class="page-layout">
+    <!-- NAVIGATION -->
+    <nav>
+        <h2>Navigation</h2>
 
-        <!-- NAVIGATION -->
-        <nav>
-            <h2>Navigation</h2>
+        <a href="#">Home</a>
+        <a href="#">Basketballs</a>
+        <a href="#">Shoes</a>
+        <a href="#">Jerseys</a>
+        <a href="#">Accessories</a>
+        <a href="#">Contact</a>
+    </nav>
 
-            <a href="#">Home</a>
-            <a href="#">Basketballs</a>
-            <a href="#">Shoes</a>
-            <a href="#">Jerseys</a>
-            <a href="#">Accessories</a>
-            <a href="#">Contact</a>
-        </nav>
+    <!-- SECTION -->
+    <section>
 
+        <!-- WELCOME -->
+        <div class="welcome">
+            <h2>Welcome to Kevin's Basketball Shop!</h2>
 
-        <!-- SECTION -->
-        <section>
+            <p>
+                Find basketballs, shoes, jerseys, and accessories
+                for players of all levels.
+            </p>
+        </div>
 
-            <div class="welcome">
-                <h2>Welcome to Kevin's Basketball Shop!</h2>
+        <!-- ARTICLE -->
+        <article>
 
-                <p>
-                    Find basketballs, shoes, jerseys, and accessories
-                    for players of all levels.
-                </p>
-            </div>
+            <h2>Featured Basketball Products</h2>
 
+            <div class="products">
 
-            <!-- ARTICLE -->
-            <article>
+                <!-- BASKETBALL -->
+                <div class="product">
 
-                <h2>Featured Basketball Products</h2>
+                    <img src="images/basketball.jpg"
+                         alt="Basketball">
 
-                <div class="products">
+                    <h3>Official Basketball</h3>
 
-                    <!-- Basketball -->
-                  <!-- Basketball -->
-<div class="product">
+                    <p>
+                        High-quality basketball for indoor
+                        and outdoor games.
+                    </p>
 
-    <img src="images/basketball.jpg"
-         alt="Basketball">
+                    <p class="price">$29.99</p>
 
-    <h3>Official Basketball</h3>
-
-    <p>
-        High-quality basketball for indoor
-        and outdoor games.
-    </p>
-
-    <p class="price">$29.99</p>
-
-    <button style="background-color: #f57c00; color: white;">
-        Buy Now
-    </button>
-
-</div>
-
-
-<!-- LeBron Basketball Shoes -->
-<div class="product">
-
-    <img src="images/lebron-shoes.jpg"
-         alt="LeBron Basketball Shoes">
-
-    <h3>LeBron Basketball Shoes</h3>
-
-    <p>
-        Comfortable shoes designed for speed,
-        jumping, and quick movements.
-    </p>
-
-    <p class="price">$89.99</p>
-
-    <button style="background-color: #f57c00; color: white;">
-        Buy Now
-    </button>
-
-</div>
-
-
-<!-- LeBron Jersey -->
-<div class="product">
-
-    <img src="images/lebron-jersey.jpg"
-         alt="LeBron Basketball Jersey">
-
-    <h3>LeBron Basketball Jersey</h3>
-
-    <p>
-        Comfortable jerseys for practices
-        and games.
-    </p>
-
-    <p class="price">$49.99</p>
-
-    <button style="background-color: #f57c00; color: white;">
-        Buy Now
-    </button>
-
-</div>
+                    <!-- Inline CSS -->
+                    <button style="background-color: #f57c00; color: white;">
+                        Buy Now
+                    </button>
 
                 </div>
 
-            </article>
+                <!-- LEBRON SHOES -->
+                <div class="product">
 
-        </section>
+                    <img src="images/lebron-shoes.jpg"
+                         alt="LeBron Basketball Shoes">
 
+                    <h3>LeBron Basketball Shoes</h3>
 
-        <!-- ASIDE -->
-        <aside>
+                    <p>
+                        Comfortable shoes designed for speed,
+                        jumping, and quick movements.
+                    </p>
 
-            <h2>Special Offer</h2>
+                    <p class="price">$89.99</p>
 
-            <p>
-                Get 10% off your first order!
-            </p>
+                    <!-- Inline CSS -->
+                    <button style="background-color: #f57c00; color: white;">
+                        Buy Now
+                    </button>
 
-            <p>
-                Shop today and get great basketball
-                products at affordable prices.
-            </p>
+                </div>
 
-        </aside>
+                <!-- LEBRON JERSEY -->
+                <div class="product">
 
-    </div>
+                    <img src="images/lebron-jersey.jpg"
+                         alt="LeBron Basketball Jersey">
 
+                    <h3>LeBron Basketball Jersey</h3>
 
-    <!-- FOOTER -->
-    <footer>
+                    <p>
+                        Comfortable jerseys for practices
+                        and games.
+                    </p>
+
+                    <p class="price">$49.99</p>
+
+                    <!-- Inline CSS -->
+                    <button style="background-color: #f57c00; color: white;">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+    <!-- ASIDE -->
+    <aside>
+
+        <h2>Special Offer</h2>
 
         <p>
-            &copy; 2026 Kevin's Basketball Shop.
-            All Rights Reserved.
+            Get 10% off your first order!
         </p>
 
         <p>
-            Email: info@kevinsbasketballshop.com
+            Shop today and get great basketball
+            products at affordable prices.
         </p>
 
-    </footer>
+    </aside>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+
+    <p>
+        &copy; 2026 Kevin's Basketball Shop.
+        All Rights Reserved.
+    </p>
+
+    <p>
+        Email: info@kevinsbasketballshop.com
+    </p>
+
+</footer>
+```
 
 </body>
 
 </html>
+
